@@ -1,19 +1,14 @@
 # swarna-fullcircle.github.io
 
-Personal site published with [GitHub Pages](https://pages.github.com/).
+Personal site for **Swarna Mohan** — Founder & Realtor® at Full Circle RE.
 
 **Live URL:** https://swarna-fullcircle.github.io/
 
-## Structure
+## Sources for content
 
-- `index.html` — homepage
-- `styles.css` — layout and theme
-- `script.js` — small helpers (footer year)
+- [Full Circle agent profile](https://fullcirclecommercialgroup.com/agent-profile/swarna-mohan)
+- [LinkedIn](https://www.linkedin.com/in/swarna-mohan)
 
-## How publishing works
+## Publishing
 
-GitHub Pages serves the `main` branch from `/`. Push to `main` and the site updates in a minute or two.
-
-## Updating content
-
-Edit the placeholder copy in `index.html` (hero, About, Projects, Contact), then commit and push to `main`.
+GitHub Pages serves `main` from `/`. Push to `main` to update the live site.
