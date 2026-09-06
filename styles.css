@@ -162,3 +162,15 @@ main { max-width: var(--max); margin: 0 auto; padding: 2rem 1.25rem 4rem; }
   .nav ul { gap: 0.75rem; font-size: 0.95rem; }
   .hero { padding-top: 2.5rem; }
 }
+
+.contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.85rem;
+  color: var(--muted);
+  max-width: 40rem;
+}
+.contact-list strong { color: var(--text); margin-right: 0.35rem; }
+.section p + p { margin-top: 1rem; }
