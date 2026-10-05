@@ -79,6 +79,38 @@ main { max-width: var(--max); margin: 0 auto; padding: 2rem 1.25rem 4rem; }
 
 .hero {
   padding: 4rem 0 3rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.hero-photo {
+  margin: 0;
+  width: 300px;
+}
+
+.hero-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: 50% 30%;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 720px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .hero-photo {
+    order: -1;
+    width: min(260px, 70vw);
+  }
 }
 
 .eyebrow {
